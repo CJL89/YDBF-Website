@@ -1,0 +1,196 @@
+
+ /*General Editing (Main Page): */
+
+html {
+  background-image: url(../pictures/backgroundPicture.jpg);
+  min-height: 100%;
+  min-width: 1024px;
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+html body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: red;
+}
+
+ /*Title Underline Image Editing (Main Page): */
+
+#header {
+  min-width: 100%;
+  min-height: 15%;
+  border: 10px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+#header h1 {
+  margin: 7.5px;
+}
+
+#header img {
+  height: 45px;
+  width: 360px;
+}
+
+.pawPrintsImage {
+  position: inherit;
+  text-align: center;
+  height: 10px;
+}
+
+
+
+
+/*Main Page Links (Main Page): */
+
+#referenceLinks {
+  min-height: 535px;
+  min-width: 100%;
+  border: 10px;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+ /*Main Image (Main Page): */
+
+.mainImage {
+  position: absolute;
+  width: 455px;
+  height: 300px;
+  /*left: 25%;*/
+}
+
+.mainImage img {
+  position: relative;
+  width: 455px;
+  height: 550px;
+  -moz-border-radius: 75% 75%;
+  -webkit-border-radius: 75% 75%;
+  border-radius: 75% 75%;
+}
+
+
+/*Left Side Images Editing (Main Page): */
+
+.referenceLinksLeft {
+  position: absolute;
+  float: left;
+  width: 250px;
+}
+
+.aboutUsPaw {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  top: 5%;
+  left: 5%;
+  transform: rotate(145deg);
+}
+
+.contactUsPaw {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  bottom: 5%;
+  left: 5%;
+  transform: rotate(45deg);
+}
+
+
+/*Right Side Images Editing (Main Page): */
+
+.referenceLinksRight {
+  position: relative;
+  float: right;
+  width: 250px;
+}
+
+.ratesPaw {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  top: 5%;
+  right: 13%;
+  transform: rotate(-145deg);
+}
+
+.picturesPaw {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  bottom: 5%;
+  right: 13%;
+  transform: rotate(-45deg);
+}
+
+
+
+
+ /*Classes (Main Page): */
+
+/*.aboutUs {
+  position: relative;
+  top: 20%;
+  left: 9%;
+}
+
+.rates {
+  position: relative;
+  top: 20%;
+  right: 11%;
+}
+
+.contactUs {
+  position: relative;
+  bottom: 22%;
+  left: 8%;
+}
+
+.pictures {
+  position: relative;
+  bottom: 22%;
+  right: 10%;
+}*/
+
+
+/*Footer Images Editing (Main Page): */
+
+#footer {
+  max-width: 100%;
+  max-height: 10%;
+  text-align: center;
+  bottom: 0.5%;
+}
+
+.logoPictures img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  padding: 10px;
+  -moz-border-radius: 35% 35%;
+  -webkit-border-radius: 35% 35%;
+  border-radius: 35% 35%;
+}
+
